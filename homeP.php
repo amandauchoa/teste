@@ -26,6 +26,7 @@
 	echo "<th>Id do produto:</th>";
 	echo "<th>Nome do produto:</td>";
 	echo "<th>Preço</th>";
+	echo "<th>Quantidade</th>";
 	echo "<th>Unidade</th>";
 	echo "</tr>";
 	
@@ -35,6 +36,7 @@
 		echo "<td>" .$vetor["2"]. "</td>";
 		echo "<td>" .$vetor["3"]. "</td>";
 		echo "<td>" .$vetor["4"]. "</td>";
+		echo "<td>" .$vetor["5"]. "</td>";
 		echo "</tr>";
 	}
 	
